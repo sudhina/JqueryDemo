@@ -1,4 +1,9 @@
 $(document).ready( function()
 {
-  $('h1').hide();
+  $('#btnOne').click(function(){
+  	$("#textOne").hide()
+  });
+  $('#btnTwo').click(function(){
+  	$('#textOne').show()
+  });
 });
